@@ -34,7 +34,13 @@ header {
     font-weight: bold;
 }
 
-.logo img, .logo a {
+.logo img {
+    height: 70%;
+    padding: 0.5rem;
+    margin-left: 2rem;
+}
+
+.logo a {
     height: 100%;
 }
 
@@ -58,12 +64,13 @@ header {
 /* CONTACT */
 .contact {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
+    padding-right: 3rem;
 }
 .contact img {
-    height: 40%;
-    margin: 1rem;
+    height: 30%;
+    margin: 0.5rem;
 }
 
 .contact a {
