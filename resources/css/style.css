@@ -80,3 +80,54 @@ header {
 .contact a:hover {
     color: #EEEEEE;
 }
+
+/* HOME SECTION */
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.home-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 1rem 1rem 4rem 4rem;
+}
+
+.home-text button {
+    background-color:#A9D369;
+    width: 11em;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.home-container h1 {
+    color: #A9D369;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 3;
+}
+
+.home-container h2 {
+    font-size: 2.8rem;
+    line-height: 1.2;
+}
+
+.my-photo img{
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 75%;
+    margin: 4rem;
+    filter: drop-shadow(0px 3rem 2rem rgb(24, 26, 24));
+}
