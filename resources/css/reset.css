@@ -22,6 +22,7 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  background-color: #222831;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -48,6 +49,6 @@ table {
 }
 
 a {
-  color: black;
+  color: #A9D369;
   text-decoration: none;
 }

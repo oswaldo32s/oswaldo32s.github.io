@@ -1,9 +1,75 @@
 body {
     background-color: #222831;
-    color: #DDDDDD;
+    color: #EEEEEE;
     font-family: 'Ubuntu', sans-serif;
 }
 
-p {
-    font-family: 'Ubuntu', sans-serif;
+/* HEADER SECTION */
+
+header {
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.header {
+    width: 33%;
+    height: 100%;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* LOGO */
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logo img, .logo a {
+    height: 100%;
+}
+
+/* NAVIGATION */
+
+.header ul {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header li {
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.header li a:hover {
+    color: #EEEEEE;
+}
+/* CONTACT */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact img {
+    height: 40%;
+    margin: 1rem;
+}
+
+.contact a {
+    height: 100%;
+}
+
+.contact a:hover {
+    color: #EEEEEE;
 }
