@@ -192,3 +192,57 @@ header {
 .service-text p {
     padding: 1rem;
 }
+
+
+@media only screen and (max-width: 1050px) {
+
+    /* HEADER SECTION */
+
+    #oswaldoname, #oswaldoemail {
+        display: none;
+    }
+
+    .header a {
+        font-size: 1rem;
+    }
+
+    /* HOME SECTION */
+
+    .home-container.home-text {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .home-container.home-text h2 {
+        font-size: 1.5rem;
+    }
+
+    /* MY SERVICES SECTION */
+    .my-services {
+        padding: 2rem;
+    }
+
+    .my-services h1{
+        font-size: 2rem;
+    }
+
+    .my-services h2{
+        font-size: 1.5rem;
+
+    }
+
+    .my-services p{
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-box {
+        width: 80%;
+    }
+
+}
