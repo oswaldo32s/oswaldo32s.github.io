@@ -100,7 +100,7 @@ header {
     justify-content: center;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 1rem 1rem 4rem 4rem;
+    padding: 4rem 4rem 4rem 8rem;
 }
 
 .home-text button {
@@ -111,7 +111,10 @@ header {
     margin-top: 1rem;
     font-weight: bold;
     font-size: 1rem;
+    cursor: pointer;
 }
+
+
 .home-container h1 {
     color: #A9D369;
     font-size: 2rem;
@@ -130,4 +133,62 @@ header {
     width: 75%;
     margin: 4rem;
     filter: drop-shadow(0px 3rem 2rem rgb(24, 26, 24));
+}
+
+/* MY SERVICES SECTION */
+.my-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8rem;
+}
+
+.my-services h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 2.2;
+}
+
+.my-services h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2;
+    padding-left: 1.5rem;
+}
+
+.services  {
+    display: flex;
+    padding: 3rem 0;
+}
+
+.service-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    padding: 1rem;
+}
+
+.my-services p {
+    font-size: 1.2rem;
+}
+
+.service-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.service-image img {
+    width: 80%;
+    border-radius: 1.5rem;
+}
+
+.service-text {
+    width: 70%;
+}
+
+.service-text p {
+    padding: 1rem;
 }
