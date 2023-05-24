@@ -196,6 +196,19 @@ header {
 }
 
 @media only screen and (max-width: 1650px) and (min-width:1051px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .home-container h1 {
+        line-height: 1;
+        padding: 1rem 0;
+    }
+    .home-container h2 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
     .service-box {
         display: flex;
         flex-direction: column;
